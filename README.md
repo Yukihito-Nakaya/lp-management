@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# コマンドシート
+$docker compose run web rails new . --force --database=postgresql
+
+$docker compose run web bash
+
+/myapp# bundle install
+
+docker compose up
